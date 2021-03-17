@@ -33,7 +33,7 @@ class Node(object):
         """
         Retorna uma lista com a posicao das pecas em
         '........\n........\n........\n........\n........\n........\n........\n........\n'
-        :return: [[aliada],[inimigas]]
+        :return: [aliadas]
         """
         aliadas=[]
         tabuleiroStr=str(self.estado)
