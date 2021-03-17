@@ -52,7 +52,7 @@ class Node(object):
         self.pontos = self.pontos - 1.5 * len(self.movimentos)
 
         #20 pts por quinas:0,7,70,77
-        quinas=[0, 7, 63, 71]
+        quinas=[0, 7, 70, 77]
         for pos in aliadas:
             if(pos in quinas):
                 self.pontos=self.pontos+20
