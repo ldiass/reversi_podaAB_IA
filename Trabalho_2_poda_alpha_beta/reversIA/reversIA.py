@@ -33,7 +33,7 @@ class Node(object):
         """
         Retorna uma lista com a posicao das pecas em
         '........\n........\n........\n........\n........\n........\n........\n........\n'
-        :return: [aliadas]
+        :return: [[aliada],[inimigas]]
         """
         aliadas=[]
         tabuleiroStr=str(self.estado)
@@ -52,13 +52,18 @@ class Node(object):
         self.pontos = self.pontos - 1.5 * len(self.movimentos)
 
         #20 pts por quinas:0,7,70,77
-        quinas=[0, 7, 70, 77]
+        adjquina_fixa = [1, 6, 10, 6,15, 16, 54, 55, 64, 60, 61, 69]
+        adjquina = [1, 6, 10, 6,15, 16, 54, 55, 64, 60, 61, 69]
+        quinas=[0, 7, 63, 71]
         for pos in aliadas:
-            if(pos in quinas):
-                self.pontos=self.pontos+20
+            for i in range(4):
+            	if(quinas[i] in aliadas):
+            		#remove as 3 posicoes do C adjacente a quina preenchida
+            		adjquina=list(set(adjquina)-set(adjquina_fixa[i*3:(i*3+4)]))
+	                self.pontos=self.pontos+20
 
         # -20 pela regiao adjacente a quina (borda C)
-        adjquina = [1, 6, 9,10, 15, 16, 54, 55, 64, 60, 61, 69]
+        adjquina = [1, 6, 10, 6,15, 16, 54, 55, 64, 60, 61, 69]
         for pos in aliadas:
             if (pos in adjquina):
                 self.pontos = self.pontos - 20
@@ -75,16 +80,10 @@ class Node(object):
             elif(pos >24 and (pos - 25) % 9== 0 and pos < 53):
                 self.pontos = self.pontos + 10
 
-        #-5 pts pela regiao adjacente as bordas
-        #[11:14],[19+i*09 <47],[24+i*09 <52],[56:59]
+        #-5 pts pela regiao adjacente as bordas centrais
+	adj_bordas_centrais = [12,13,28,37,33,42,57,58]
         for pos in aliadas:
-            if (pos > 10 and pos<15):
-                self.pontos = self.pontos - 5
-            elif (pos > 55 and pos < 60):
-                self.pontos = self.pontos - 5
-            elif (pos > 18 and (pos - 19) % 9 == 0 and pos < 47):
-                self.pontos = self.pontos - 5
-            elif (pos > 23 and (pos - 24) % 9 == 0 and pos < 52):
+            if (pos in adj_bordas_centrais):
                 self.pontos = self.pontos - 5
 
 
