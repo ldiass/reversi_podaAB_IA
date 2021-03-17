@@ -13,9 +13,16 @@ class Node(object):
         self.movimentos = []
         self.caminho = []
         self.oponente=estado.opponent(self.cor)
+	
+	self.pontos=calcula_pontos(self)	
 
-    def add_move(self, new_node):
-        self.move.append(new_node)
+    def add_movimentos(self):
+	#Usar funcoes definidas no board para executar os movimentos de movimentos
+	#Nao tenho ctz se aqui vai o oponente msm, mas faz sentido os proximos movimentos serem do oposto
+	coordenada_movimentos=self.estado.legal_moves(self.oponente)
+	#Criar a lista de estados a partir da lista de movimentos, instanciar novos nodos e colocar na arvore
+	#self.movimentos = 
+        self.move.movimentos(new_node)
 
     def __str__(self):
         return str(self.estado) + ": " + str(self.custo)
@@ -25,8 +32,7 @@ class Node(object):
         Returns a random move from the list of possible ones
         Primeiro elemento eh o numero da coluna e o segunda da linha [0,7]
         :return: (int, int)
-        """
-        self.movimentos = self.estado.legal_moves(self.cor)
+        """       
         return random.choice(self.movimentos) if len(self.movimentos) > 0 else (-1, -1)
 
     def encontrar_pecas(self):
@@ -62,8 +68,7 @@ class Node(object):
             		adjquina=list(set(adjquina)-set(adjquina_fixa[i*3:(i*3+4)]))
 	                self.pontos=self.pontos+20
 
-        # -20 pela regiao adjacente a quina (borda C)
-        adjquina = [1, 6, 10, 6,15, 16, 54, 55, 64, 60, 61, 69]
+        # -20 pela regiao adjacente a quina (borda C)        
         for pos in aliadas:
             if (pos in adjquina):
                 self.pontos = self.pontos - 20
