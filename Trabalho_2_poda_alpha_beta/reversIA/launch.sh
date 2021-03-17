@@ -1,2 +1,4 @@
 #!/bin/bash
-python randomplayer.py $1 $2
+#$1 = path to state file
+#$2 = 'black' | 'white'
+python reversIA.py $1 $2
