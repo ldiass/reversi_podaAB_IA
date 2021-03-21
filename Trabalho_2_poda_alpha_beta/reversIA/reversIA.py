@@ -14,7 +14,7 @@ class Node(object):
         self.acao = (0, 0)
         self.oponente = estado.opponent(self.cor)
         # variavel para impor limite de profundidade
-        self.iter = 10
+        self.iter = 15
 
     def make_move(self):
 

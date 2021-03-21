@@ -1,0 +1,67 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"204c34b2-150c-4fb1-89a9-08476e0f73fb\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/results.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/history.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/history.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/launch.sh\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/launch.sh\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/move.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/move.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/state.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/state.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/launch.sh\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/move.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/move.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/reversIA.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/reversIA.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/state.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/state.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/server.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/server.py\" afterDir=\"false\" />\n    </list>\n    <disabled>\n      <disabled_changelists>\n        <list default=\"true\" id=\"204c34b2-150c-4fb1-89a9-08476e0f73fb\" name=\"Default Changelist\" comment=\"\" />\n      </disabled_changelists>\n      <disabled_trackers />\n    </disabled>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\n      <list>\n        <option value=\"Luís Dias Ferreira Soares &lt;ldiass@live.com&gt;\" />\n      </list>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GithubDefaultAccount\">\n    <option name=\"defaultAccountId\" value=\"4e687b56-7d5f-4b5d-b3fe-5ec2755578db\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1pwbQRaYTusIUJz2l5BOrqMfcue\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"204c34b2-150c-4fb1-89a9-08476e0f73fb\" name=\"Default Changelist\" comment=\"\" />\n      <created>1616097092065</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1616097092065</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"+script\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"+script\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision fd62b211c8f1d687f3d091e47d741021d9b51929)
++++ b/.idea/workspace.xml	(date 1616369223642)
+@@ -1,19 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="204c34b2-150c-4fb1-89a9-08476e0f73fb" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/results.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/history.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/launch.sh" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/move.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/move.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/state.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/launch.sh" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/move.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/move.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/reversIA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/reversIA.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/state.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/server.py" afterDir="false" />
+-    </list>
++    <list default="true" id="204c34b2-150c-4fb1-89a9-08476e0f73fb" name="Default Changelist" comment="" />
+     <disabled>
+       <disabled_changelists>
+         <list default="true" id="204c34b2-150c-4fb1-89a9-08476e0f73fb" name="Default Changelist" comment="" />
+@@ -56,6 +44,35 @@
+       <option name="presentableId" value="Default" />
+       <updated>1616097092065</updated>
+     </task>
++    <task id="LOCAL-00001" summary="+ script">
++      <created>1616368811835</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1616368811835</updated>
++    </task>
++    <task id="LOCAL-00002" summary="+ script">
++      <created>1616368965877</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1616368965877</updated>
++    </task>
++    <task id="LOCAL-00003" summary="script">
++      <created>1616369121953</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1616369121953</updated>
++    </task>
++    <task id="LOCAL-00004" summary="script">
++      <created>1616369202222</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1616369202222</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">

@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="204c34b2-150c-4fb1-89a9-08476e0f73fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/history.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/launch.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/move.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/move.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/launch.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/move.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/move.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/reversIA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/reversIA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/server.py" afterDir="false" />
-    </list>
+    <list default="true" id="204c34b2-150c-4fb1-89a9-08476e0f73fb" name="Default Changelist" comment="" />
     <disabled>
       <disabled_changelists>
         <list default="true" id="204c34b2-150c-4fb1-89a9-08476e0f73fb" name="Default Changelist" comment="" />
@@ -56,6 +44,35 @@
       <option name="presentableId" value="Default" />
       <updated>1616097092065</updated>
     </task>
+    <task id="LOCAL-00001" summary="+ script">
+      <created>1616368811835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616368811835</updated>
+    </task>
+    <task id="LOCAL-00002" summary="+ script">
+      <created>1616368965877</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616368965877</updated>
+    </task>
+    <task id="LOCAL-00003" summary="script">
+      <created>1616369121953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616369121953</updated>
+    </task>
+    <task id="LOCAL-00004" summary="script">
+      <created>1616369202222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616369202222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
