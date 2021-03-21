@@ -1,0 +1,12 @@
+total 48
+drwxrwxrwx 5 ubuntu ubuntu 4096 mar 19 07:32 .
+drwxrwxr-x 5 ubuntu ubuntu 4096 mar 18 23:38 ..
+-rw-rw-r-- 1 ubuntu ubuntu    0 mar 19 07:33 arquivo.txt
+drwxrwxrwx 3 ubuntu ubuntu 4096 mar 18 14:53 common
+-rw-rw-r-- 1 ubuntu ubuntu  360 mar 19 07:32 history.txt
+-rw-rw-r-- 1 ubuntu ubuntu    3 mar 18 14:37 move.txt
+drwxrwxrwx 2 ubuntu ubuntu 4096 mar 18 14:37 randomplayer
+-rw-rw-r-- 1 ubuntu ubuntu 3238 mar 18 14:37 README
+-rw-rw-r-- 1 ubuntu ubuntu 2212 mar 19 07:32 results.xml
+drwxrwxrwx 2 ubuntu ubuntu 4096 mar 18 19:47 reversIA
+-rw-rw-rw- 1 ubuntu ubuntu 8781 mar 18 18:27 server.py

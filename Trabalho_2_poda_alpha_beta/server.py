@@ -113,6 +113,7 @@ class Server(object):
             state_file.close()
 
             # starts player process
+            ini = time.time()
             stdout = open(self.redir_stdout, 'a') if self.redir_stdout is not None else sys.stdout
             player_process = subprocess.Popen(
                 ['./launch.sh', self.STATE_FILE, self.color_names[player]],
@@ -122,6 +123,7 @@ class Server(object):
 
             #  waits 'delay' seconds for the move to complete
             print('Waiting for next move of Player %d...' % (player + 1))
+            fim = time.time()
             time.sleep(self.delay)
 
             # kills player process, collects and processes move
@@ -151,12 +153,15 @@ class Server(object):
                     illegal_count[player] = 0
                     print('Player %d move %d,%d accepted.' % (player + 1, x, y))
 
+                    print('tempo: %f ' % (fim-ini))
+
                 else:
                     illegal_count[player] += 1
                     print('Player %d move %d,%d ILLEGAL!' % (player + 1, x, y))
 
             else:
                 print('Player %d has not made a move and lost its turn.' % (player + 1))
+
 
             print('Current board:')
             print(self.board.decorated_str())

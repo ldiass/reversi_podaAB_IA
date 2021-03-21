@@ -1,8 +1,10 @@
 import random
 import sys
+import time
 
 sys.path.append('..')
 from common import board
+
 
 
 class Node(object):
@@ -12,7 +14,7 @@ class Node(object):
         self.acao = (0, 0)
         self.oponente = estado.opponent(self.cor)
         # variavel para impor limite de profundidade
-        self.iter = 10
+        self.iter = 15
 
     def make_move(self):
 
@@ -34,7 +36,6 @@ class Node(object):
             return (-1, -1)
 
     def valorMAX(self, tabuleiro, alpha, beta, iter):
-
         movimentos_legais = self.estado.legal_moves(self.oponente)
         if (iter == self.iter or len(movimentos_legais) == 0):
             return self.calcula_pontos(tabuleiro, self.cor)
@@ -49,8 +50,9 @@ class Node(object):
                     return alpha_novo
             return alpha
 
-    def valorMIN(self, tabuleiro, alpha, beta, iter):
 
+
+    def valorMIN(self, tabuleiro, alpha, beta, iter):
         movimentos_legais = self.estado.legal_moves(self.cor)
         if (iter == self.iter or len(movimentos_legais) == 0):
             return self.calcula_pontos(tabuleiro, self.oponente)
@@ -64,6 +66,8 @@ class Node(object):
                 if (alpha > beta_novo):
                     return beta_novo
             return beta
+
+
 
     def encontrar_pecas(self, tabuleiro, cor):
         """

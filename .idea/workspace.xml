@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="204c34b2-150c-4fb1-89a9-08476e0f73fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/launch.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/move.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/move.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/randomplayer/state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/launch.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/move.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/move.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/reversIA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/reversIA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/reversIA/state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trabalho_2_poda_alpha_beta/server.py" afterDir="false" />
+    </list>
+    <disabled>
+      <disabled_changelists>
+        <list default="true" id="204c34b2-150c-4fb1-89a9-08476e0f73fb" name="Default Changelist" comment="" />
+      </disabled_changelists>
+      <disabled_trackers />
+    </disabled>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Luís Dias Ferreira Soares &lt;ldiass@live.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4e687b56-7d5f-4b5d-b3fe-5ec2755578db" />
+  </component>
+  <component name="ProjectId" id="1pwbQRaYTusIUJz2l5BOrqMfcue" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="204c34b2-150c-4fb1-89a9-08476e0f73fb" name="Default Changelist" comment="" />
+      <created>1616097092065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616097092065</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+script" />
+    <option name="LAST_COMMIT_MESSAGE" value="+script" />
+  </component>
+</project>
